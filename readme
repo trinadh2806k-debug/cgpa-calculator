@@ -1,0 +1,194 @@
+# Smart CGPA Calculator
+
+## Project Structure
+
+Smart-CGPA-Calculator/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+## Project Description
+
+Smart CGPA Calculator is a web-based academic performance
+management application.
+
+It allows students to:
+
+- Register an account
+- Login to the application
+- Add multiple subjects
+- Enter subject credits
+- Select grade points
+- Calculate CGPA
+- Calculate approximate percentage
+- Save calculation history
+- Search previous calculations
+- Clear calculation history
+- Reset the calculator
+- Switch between light and dark themes
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- LocalStorage
+
+## Main Features
+
+### 1. Login
+
+Demo login:
+
+Email:
+student@example.com
+
+Password:
+123456
+
+Students can also create a new account.
+
+### 2. Subject Management
+
+Students can add multiple subjects.
+
+For every subject, the application accepts:
+
+- Subject Name
+- Credits
+- Grade Point
+
+Available grades:
+
+- O = 10
+- A+ = 9
+- A = 8
+- B+ = 7
+- B = 6
+- C = 5
+- F = 0
+
+### 3. CGPA Calculation
+
+The application calculates CGPA using:
+
+CGPA =
+Total Weighted Grade Points / Total Credits
+
+Where:
+
+Total Weighted Grade Points =
+Credit × Grade Point
+
+for every subject.
+
+### 4. Percentage
+
+The application uses:
+
+Percentage = CGPA × 9.5
+
+This conversion can be changed according to
+the college/university grading system.
+
+### 5. Calculation History
+
+After calculating CGPA, the result is saved
+in browser LocalStorage.
+
+The history contains:
+
+- Date
+- CGPA
+- Total Credits
+- Percentage
+
+### 6. Search
+
+Students can search calculation history using:
+
+- Date
+- CGPA
+
+### 7. Dark Mode
+
+The application provides a Toggle Theme button
+for switching between light and dark modes.
+
+The selected theme is saved using LocalStorage.
+
+### 8. Responsive Design
+
+The application works on:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+## How to Run
+
+1. Open VS Code.
+2. Create a folder named:
+
+   Smart-CGPA-Calculator
+
+3. Create these four files:
+
+   index.html
+   style.css
+   script.js
+   README.md
+
+4. Copy the corresponding code into each file.
+
+5. Open `index.html`.
+
+6. For the best experience, install the
+   Live Server extension in VS Code.
+
+7. Right-click `index.html`.
+
+8. Select:
+
+   Open with Live Server
+
+## Data Storage
+
+This project uses browser LocalStorage.
+
+The following information is stored locally:
+
+- Registered user
+- Logged-in user
+- CGPA history
+- Dark mode preference
+
+No external database is required.
+
+## Project Objective
+
+The objective of this project is to develop a simple,
+responsive and user-friendly CGPA calculation system
+for college students.
+
+The project demonstrates:
+
+- Front-end web development
+- Form handling
+- JavaScript calculations
+- DOM manipulation
+- LocalStorage
+- Authentication interface
+- Responsive design
+- Theme management
+
+## Note
+
+This is a front-end academic project.
+
+The login and registration system uses LocalStorage
+and is intended for demonstration purposes. It is
+not a production-level secure authentication system.
